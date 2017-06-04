@@ -75,3 +75,79 @@ body {
   font-size: 14px;
   text-decoration: none;
 }
+
+/*servicios*/
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px;
+}
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+/*area de trabajo/notebook*/
+#work{
+	display: flex;
+	height: 1500px;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.container.flexcontainer{
+		
+}
+#notebook{
+	height: 40%;
+}
+
+/* Area de fotos */
+#pictures{
+	width: 70%;
+	height: 500px;
+}
+#img-box.flexcontainer{
+	display: flex;
+	height: 400px;
+	width: 80%;
+	text-align: center;
+	justify-content: center;
+
+}
+.img-content{
+	flex-direction: column;
+	
+	
+}
+
+/*footer*/
+#end.flex-container{
+	justify-content: center;
+	align-items: center;
+}
+#end{
+	background-color: gray;
+}
+#end{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
